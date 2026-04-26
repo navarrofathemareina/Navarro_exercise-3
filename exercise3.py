@@ -8,7 +8,6 @@ try:
     with open("users.txt", "a") as file:
         file.write(f"{username} - {age}\n")
 
-    # Step 4: Display all users
     print("\nSaved Users:")
     with open("users.txt", "r") as file:
         print(file.read())
